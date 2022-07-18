@@ -282,7 +282,7 @@ if navigation == "Politics Today":
             # Applying filter
             df1 = df.loc[mask]
 
-            choice2 = st.sidebar.radio(label = "Go To:", options = ['Social Media Popularity of Political Figures heading towards the general election', 'Polarity of sentiments of the electorate heading towards the general election'])
+            choice2 = st.sidebar.radio(label = "Go To:", options = ['Social Media Popularity of Political Parties heading towards the general election', 'Polarity of sentiments of the electorate heading towards the general election'])
             if choice2 == 'Social Media Popularity of Political Parties heading towards the general election':
 
                 # Selecting columns of interest, dropping unwanted records, and grouping like records in dataframe
