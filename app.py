@@ -442,7 +442,7 @@ if navigation == "Politics Today":
                 plt = (bar_chart + text).properties(height=600)
                 st.altair_chart(plt, use_container_width=True)
 
-            if choice3 == "Polarity of sentiments towards various presidential aspirants for Kenyas 2022 general election":
+            if choice3 == 'Social Media Popularity of Political Figures heading towards the general election':
             
                 st.write("""
                 The line chart represents the changes in polarity of the electorate as we head toward the 2022
