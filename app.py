@@ -402,7 +402,7 @@ if navigation == "Politics Today":
             # Applying filter
             df1 = df.loc[mask]
 
-            choice3 = st.sidebar.radio(label = "Go To:", options = ["'Social Media Popularity of Political Figures heading towards the general election'", "Polarity of sentiments towards various presidential aspirants for Kenyas 2022 general election"])
+            choice3 = st.sidebar.radio(label = "Go To:", options = ["Social Media Popularity of Political Figures heading towards the general election", "Polarity of sentiments towards various presidential aspirants for Kenyas 2022 general election"])
             if choice3 == 'Social Media Popularity of Political Figures heading towards the general election':
 
                 # Selecting records, attributes of intrest and dropping unwanted attributes
